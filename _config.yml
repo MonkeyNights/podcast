@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Monkey Nights podcast
+title: THE MONKEY NIGHTS PODCAST
 email: monkeynightsdevs@gmail.com
 subtitle: Desenvolvimento mobile, agora em áudio
 description: Podcast do Monkey Nights
