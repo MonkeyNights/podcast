@@ -17,7 +17,7 @@ title: Monkey Nights podcast
 email: monkeynightsdevs@gmail.com
 subtitle: Desenvolvimento mobile, agora em áudio
 description: Podcast do Monkey Nights
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/podcast" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: pt-br
 author: Monkey Nights
