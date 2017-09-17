@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="pt-br">
+	<channel>
+		<atom:link href="http://localhost:4000/podcast.rss" rel="self" type="application/rss+xml" />
+		<title>Monkey Nights podcast</title>
+		<description>Podcast do Monkey Nights</description>
+		<link>http://localhost:4000</link>
+		<language>pt-br</language>
+		<managingEditor>monkeynightsdevs@gmail.com (Monkey Nights)</managingEditor>
+		<webMaster>monkeynightsdevs@gmail.com (Monkey Nights)</webMaster>
+		<copyright>2017 Monkey Nights podcast</copyright>
+		<pubDate>Sun, 17 Sep 2017 11:23:54 -0300</pubDate>
+		<lastBuildDate>Sun, 17 Sep 2017 11:23:54 -0300</lastBuildDate>
+		<image>
+			<link>http://localhost:4000</link>
+			<url>http://localhost:4000/images/itunes.png</url>
+			<title>Monkey Nights podcast</title>
+		</image>
+		<itunes:subtitle>Podcast do Monkey Nights</itunes:subtitle>
+		<itunes:author>Monkey Nights</itunes:author>
+		<itunes:summary>Podcast do Monkey Nights</itunes:summary>
+		<itunes:keywords></itunes:keywords>
+		<itunes:owner>
+			<itunes:name>Monkey Nights</itunes:name>
+			<itunes:email>monkeynightsdevs@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:image href="http://localhost:4000/images/itunes.png" />
+		<itunes:category text="Music" />
+		<itunes:category text="Technology">
+			<itunes:category text="Podcasting" />
+		</itunes:category>
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Philosophy" />
+		</itunes:category>
+		<itunes:explicit>yes</itunes:explicit>
+		
+		Pilot
+		<item>
+			<title>Pilot</title>
+			<link>http://localhost:4000/pilot/2017/09/17/pilot.html</link>
+			<pubDate>Sun, 17 Sep 2017 11:16:02 -0300</pubDate>
+			<description>Test</description>
+			<guid isPermaLink="true">http://localhost:4000/pilot/2017/09/17/pilot.html</guid>
+			<enclosure url="http://path-to-your/file.mp3" length="14459510" type="audio/mp3"/>
+			<itunes:author>Monkey Nights</itunes:author>
+			<itunes:subtitle>Monkey Nights podcast: Pilot</itunes:subtitle>
+			<itunes:summary>Tests.</itunes:summary>
+			<itunes:duration>14:50</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+			<itunes:image href="http://localhost:4000/images/itunes.png" />
+			<itunes:explicit>yes</itunes:explicit>
+			<itunes:block>no</itunes:block>
+		</item>
+		
+	</channel>
+</rss>
