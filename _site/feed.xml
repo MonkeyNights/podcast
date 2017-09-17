@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2017-09-17T16:22:42-03:00</updated><id>http://localhost:4000/</id><title type="html">Monkey Nights podcast</title><subtitle>Podcast do Monkey Nights</subtitle><author><name>Monkey Nights</name></author><entry><title type="html">THE MONKEY NIGHTS PODCAST : Pilot</title><link href="http://localhost:4000/pilot/2017/09/17/pilot.html" rel="alternate" type="text/html" title="THE MONKEY NIGHTS PODCAST : Pilot" /><published>2017-09-17T11:16:02-03:00</published><updated>2017-09-17T11:16:02-03:00</updated><id>http://localhost:4000/pilot/2017/09/17/pilot</id><content type="html" xml:base="http://localhost:4000/pilot/2017/09/17/pilot.html">&lt;p&gt;Olá, depois de muito tempo, planejamento e muitas tentativas e erros, lançamos hoje o piloto do podcast da &lt;strong&gt;Monkey Nights&lt;/strong&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2017-09-17T16:36:06-03:00</updated><id>http://localhost:4000/</id><title type="html">Monkey Nights podcast</title><subtitle>Podcast do Monkey Nights</subtitle><author><name>Monkey Nights</name></author><entry><title type="html">Programa Piloto</title><link href="http://localhost:4000/pilot/2017/09/17/pilot.html" rel="alternate" type="text/html" title="Programa Piloto" /><published>2017-09-17T11:16:02-03:00</published><updated>2017-09-17T11:16:02-03:00</updated><id>http://localhost:4000/pilot/2017/09/17/pilot</id><content type="html" xml:base="http://localhost:4000/pilot/2017/09/17/pilot.html">&lt;p&gt;Olá, depois de muito tempo, planejamento e muitas tentativas e erros, lançamos hoje o piloto do podcast da &lt;strong&gt;Monkey Nights&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;sobre-o-programa-piloto&quot;&gt;Sobre o programa piloto&lt;/h2&gt;
+&lt;h2 id=&quot;the-monkey-nigths-podcast&quot;&gt;THE MONKEY NIGTHS PODCAST&lt;/h2&gt;
 
 &lt;p&gt;O nosso cast é colaborativo, &lt;strong&gt;focado em desenvolvimento móvel&lt;/strong&gt; e você pode sugerir a pauta através de &lt;a href=&quot;https://github.com/MonkeyNights/podcast/issues&quot;&gt;issues no github&lt;/a&gt;, no programa piloto explicamos tudo o que você precisa saber para participar ativamente do nosso cast.&lt;/p&gt;
 
-&lt;h4 id=&quot;os-hosts-dessa-edição-são&quot;&gt;Os hosts dessa edição são:&lt;/h4&gt;
+&lt;h3 id=&quot;os-hosts-dessa-edição-são&quot;&gt;Os hosts dessa edição são:&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;William S. Rodriguez ou &lt;a href=&quot;https://twitter.com/willbuildapps&quot;&gt;@willbuildapps&lt;/a&gt;no twitter.&lt;/li&gt;
+  &lt;li&gt;William S. Rodriguez ou &lt;a href=&quot;https://twitter.com/willbuildapps&quot;&gt;@willbuildapps&lt;/a&gt; no twitter.&lt;/li&gt;
   &lt;li&gt;William Barboda ou &lt;a href=&quot;https://twitter.com/willdotnet&quot;&gt;@willdotnet&lt;/a&gt; no twitter&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;links-comentados-na-gravação&quot;&gt;Links comentados na gravação:&lt;/h4&gt;
+&lt;h3 id=&quot;links-comentados-na-gravação&quot;&gt;Links comentados na gravação:&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Pocket Casts: &lt;a href=&quot;https://play.pocketcasts.com&quot;&gt;https://play.pocketcasts.com&lt;/a&gt;&lt;/li&gt;
