@@ -23,6 +23,7 @@ lang: pt-br
 author: Monkey Nights
 twitter_username: MonkeyNightsDev
 github_username:  MonkeyNights
+keywords: mobile, xamarin, iOS, Android, mobile development
 
 # Build settings
 markdown: kramdown

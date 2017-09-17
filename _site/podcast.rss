@@ -9,8 +9,8 @@
 		<managingEditor>monkeynightsdevs@gmail.com (Monkey Nights)</managingEditor>
 		<webMaster>monkeynightsdevs@gmail.com (Monkey Nights)</webMaster>
 		<copyright>2017 Monkey Nights podcast</copyright>
-		<pubDate>Sun, 17 Sep 2017 17:12:29 -0300</pubDate>
-		<lastBuildDate>Sun, 17 Sep 2017 17:12:29 -0300</lastBuildDate>
+		<pubDate>Sun, 17 Sep 2017 17:24:36 -0300</pubDate>
+		<lastBuildDate>Sun, 17 Sep 2017 17:24:36 -0300</lastBuildDate>
 		<image>
 			<link>http://localhost:4000</link>
 			<url>https://mkncast.blob.core.windows.net/static/itunes.png</url>
@@ -24,15 +24,12 @@
 			<itunes:name>Monkey Nights</itunes:name>
 			<itunes:email>monkeynightsdevs@gmail.com</itunes:email>
 		</itunes:owner>
-		<itunes:image href="http://localhost:4000/images/itunes.png" />
+		<itunes:image href="https://mkncast.blob.core.windows.net/static/itunes.png" />
 		<itunes:category text="Music" />
 		<itunes:category text="Technology">
 			<itunes:category text="Podcasting" />
 		</itunes:category>
-		<itunes:category text="Society &amp; Culture">
-			<itunes:category text="Philosophy" />
-		</itunes:category>
-		<itunes:explicit>yes</itunes:explicit>
+		<itunes:explicit>no</itunes:explicit>
 		
 		Programa Piloto
 		<item>
@@ -45,9 +42,9 @@
 			<itunes:author>Monkey Nights</itunes:author>
 			<itunes:subtitle>Monkey Nights podcast: Programa Piloto</itunes:subtitle>
 			<itunes:summary>Depois de muito tempo, planejamento e muitas tentativas e erros, lançamos hoje o piloto do podcast da Monkey Nights..</itunes:summary>
-			<itunes:duration>23:530</itunes:duration>
+			<itunes:duration>23:53</itunes:duration>
 			<itunes:keywords>mobile, xamarin, iOS, Android, mobile development</itunes:keywords>
-			<itunes:image href="http://localhost:4000/images/itunes.png" />
+			<itunes:image href="https://mkncast.blob.core.windows.net/static/itunes.png" />
 			<itunes:explicit>no</itunes:explicit>
 			<itunes:block>no</itunes:block>
 		</item>
