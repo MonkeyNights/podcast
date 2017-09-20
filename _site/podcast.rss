@@ -31,8 +31,8 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<managingEditor>monkeynightsdevs@gmail.com (Monkey Nights)w</managingEditor>
 	<itunes:subtitle>Podcast da comunidade de desenvolvedores móveis Monkey Nights</itunes:subtitle>
 	<image>
-		<link>https://monkeynights.github.io</link>
-		<url>https://monkeynights.github.io/images/itunes.png</url>
+		<link></link>
+		<url>https://mkncast.blob.core.windows.net/static/itunes.png</url>
 		<title>The Monkey Nights Podcast</title>
 	</image>
 	<itunes:category text="Technology">
