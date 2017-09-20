@@ -13,14 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: THE MONKEY NIGHTS PODCAST
+title: The Monkey Nights Podcast
 email: monkeynightsdevs@gmail.com
 subtitle: Desenvolvimento mobile, agora em áudio
-description: Podcast do Monkey Nights
+description: Podcast de desenvolvimento mobile
 baseurl: "/podcast" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-lang: pt-br
+url: "https://monkeynights.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+lang: pt-BR
 author: Monkey Nights
+description: Podcast da comunidade de desenvolvedores móveis Monkey Nights
 twitter_username: MonkeyNightsDev
 github_username:  MonkeyNights
 keywords: mobile, xamarin, iOS, Android, mobile development

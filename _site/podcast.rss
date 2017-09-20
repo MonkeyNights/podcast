@@ -1,53 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="pt-br">
-	<channel>
-		<atom:link href="http://localhost:4000/podcast.rss" rel="self" type="application/rss+xml" />
-		<title>Monkey Nights podcast</title>
-		<description>Podcast do Monkey Nights</description>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+>	
+<channel>
+	<title>The Monkey Nights Podcast</title>
+	<atom:link href="https://monkeynights.github.io/podcast/podcast.rss" rel="self" type="application/rss+xml" />
+	<link>http://localhost:4000</link>
+	<description>Podcast da comunidade de desenvolvedores móveis Monkey Nights</description>
+	<lastBuildDate>Wed, 20 Sep 2017 08:52:42 -0300</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>weekly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<itunes:summary>Podcast da comunidade de desenvolvedores móveis Monkey Nights</itunes:summary>
+	<itunes:author>Monkey Nights</itunes:author>
+	<itunes:explicit>clean</itunes:explicit>	
+	<itunes:image href="https://mkncast.blob.core.windows.net/static/itunes.png" />
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>Monkey Nights</itunes:name>
+		<itunes:email>monkeynightsdevs@gmail.com</itunes:email>
+	</itunes:owner>
+	<managingEditor>monkeynightsdevs@gmail.com (Monkey Nights)w</managingEditor>
+	<itunes:subtitle>Podcast da comunidade de desenvolvedores móveis Monkey Nights</itunes:subtitle>
+	<image>
 		<link>http://localhost:4000</link>
-		<language>pt-br</language>
-		<managingEditor>monkeynightsdevs@gmail.com (Monkey Nights)</managingEditor>
-		<webMaster>monkeynightsdevs@gmail.com (Monkey Nights)</webMaster>
-		<copyright>2017 Monkey Nights podcast</copyright>
-		<pubDate>Sun, 17 Sep 2017 17:24:36 -0300</pubDate>
-		<lastBuildDate>Sun, 17 Sep 2017 17:24:36 -0300</lastBuildDate>
-		<image>
-			<link>http://localhost:4000</link>
-			<url>https://mkncast.blob.core.windows.net/static/itunes.png</url>
-			<title>Monkey Nights podcast</title>
-		</image>
-		<itunes:subtitle>Podcast do Monkey Nights</itunes:subtitle>
+		<url>https://monkeynights.github.io/images/itunes.png</url>
+		<title>The Monkey Nights Podcast</title>
+	</image>
+	<itunes:category text="Technology">
+	</itunes:category>
+	<item>
+		<title>Programa Piloto</title>
+		<link>https://monkeynights.github.io/pilot/2017/09/17/pilot.html</link>
+		<pubDate>Sun, 17 Sep 2017 11:16:02 -0300</pubDate>
+		<guid isPermaLink="true">https://monkeynights.github.io/pilot/2017/09/17/pilot.html</guid>
+		<description>Programa piloto para apresentação do THE MONKEY NIGHTS PODCAST (TMNP)</description>
+		<enclosure url="http:https://mkncast.blob.core.windows.net/piloto/Piloto.mp3" length="34100" type="audio/mp3"/>
+		<itunes:subtitle>The Monkey Nights Podcast: Programa Piloto</itunes:subtitle>
+		<itunes:summary>Depois de muito tempo, planejamento e muitas tentativas e erros, lançamos hoje o piloto do podcast da Monkey Nights..</itunes:summary>
 		<itunes:author>Monkey Nights</itunes:author>
-		<itunes:summary>Podcast do Monkey Nights</itunes:summary>
-		<itunes:keywords></itunes:keywords>
-		<itunes:owner>
-			<itunes:name>Monkey Nights</itunes:name>
-			<itunes:email>monkeynightsdevs@gmail.com</itunes:email>
-		</itunes:owner>
-		<itunes:image href="https://mkncast.blob.core.windows.net/static/itunes.png" />
-		<itunes:category text="Music" />
-		<itunes:category text="Technology">
-			<itunes:category text="Podcasting" />
-		</itunes:category>
 		<itunes:explicit>no</itunes:explicit>
-		
-		Programa Piloto
-		<item>
-			<title>Programa Piloto</title>
-			<link>http://localhost:4000/pilot/2017/09/17/pilot.html</link>
-			<pubDate>Sun, 17 Sep 2017 11:16:02 -0300</pubDate>
-			<description>Programa piloto para apresentação do THE MONKEY NIGHTS PODCAST (TMNP)</description>
-			<guid isPermaLink="true">http://localhost:4000/pilot/2017/09/17/pilot.html</guid>
-			<enclosure url="http:https://mkncast.blob.core.windows.net/piloto/Piloto.mp3" length="34100" type="audio/mp3"/>
-			<itunes:author>Monkey Nights</itunes:author>
-			<itunes:subtitle>Monkey Nights podcast: Programa Piloto</itunes:subtitle>
-			<itunes:summary>Depois de muito tempo, planejamento e muitas tentativas e erros, lançamos hoje o piloto do podcast da Monkey Nights..</itunes:summary>
-			<itunes:duration>23:53</itunes:duration>
-			<itunes:keywords>mobile, xamarin, iOS, Android, mobile development</itunes:keywords>
-			<itunes:image href="https://mkncast.blob.core.windows.net/static/itunes.png" />
-			<itunes:explicit>no</itunes:explicit>
-			<itunes:block>no</itunes:block>
-		</item>
-		
-	</channel>
+		<itunes:duration>23:53</itunes:duration>
+	</item>
+</channel>
 </rss>

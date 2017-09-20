@@ -2,55 +2,56 @@
 
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
-	<channel>
-		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />
-		<title>{{ site.title }}</title>
-		<description>{{ site.description | xml_escape }}</description>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+>	
+<channel>
+	<title>{{ site.title }}</title>
+	<atom:link href="{{ site.url }}/podcast/podcast.rss" rel="self" type="application/rss+xml" />
+	<link>{{ site.url }}</link>
+	<description>{{ site.description | xml_escape }}</description>
+	<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+	<language>{{ site.lang }}</language>
+	<sy:updatePeriod>weekly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
+	<itunes:author>{{ site.author }}</itunes:author>
+	<itunes:explicit>clean</itunes:explicit>	
+	<itunes:image href="https://mkncast.blob.core.windows.net/static/itunes.png" />
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>{{ site.author }}</itunes:name>
+		<itunes:email>{{ site.email }}</itunes:email>
+	</itunes:owner>
+	<managingEditor>{{ site.email }} ({{ site.author }})w</managingEditor>
+	<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
+	<image>
 		<link>{{ site.url }}</link>
-		<language>{{ site.lang }}</language>
-		<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
-		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
-		<copyright>2017 {{ site.title }}</copyright>
-		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-		<image>
-			<link>{{ site.url }}</link>
-			<url>https://mkncast.blob.core.windows.net/static/itunes.png</url>
-			<title>{{ site.title }}</title>
-		</image>
-		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
+		<url>{{ site.url }}/images/itunes.png</url>
+		<title>{{ site.title }}</title>
+	</image>
+	<itunes:category text="Technology">
+	</itunes:category>
+	{% for post in site.posts %}<item>
+		<title>{{ post.title | xml_escape }}</title>
+		<link>{{ site.url }}{{ post.url }}</link>
+		<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+		<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+		<description>{{ post.excerpt | xml_escape }}</description>
+		<enclosure url="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
+		<itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
+		<itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
 		<itunes:author>{{ site.author }}</itunes:author>
-		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
-		<itunes:keywords>{{ site.keywords }}</itunes:keywords>
-		<itunes:owner>
-			<itunes:name>{{ site.author }}</itunes:name>
-			<itunes:email>{{ site.email }}</itunes:email>
-		</itunes:owner>
-		<itunes:image href="https://mkncast.blob.core.windows.net/static/itunes.png" />
-		<itunes:category text="Music" />
-		<itunes:category text="Technology">
-			<itunes:category text="Podcasting" />
-		</itunes:category>
-		<itunes:explicit>no</itunes:explicit>
-		{% for post in site.posts %}
-		{{post.title}}
-		<item>
-			<title>{{ post.title | xml_escape }}</title>
-			<link>{{ site.url }}{{ post.url }}</link>
-			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-			<description>{{ post.excerpt | xml_escape }}</description>
-			<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-			<enclosure url="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
-			<itunes:author>{{ site.author }}</itunes:author>
-			<itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
-			<itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
-			<itunes:duration>{{ post.duration }}</itunes:duration>
-			<itunes:keywords>{{ post.keywords }}</itunes:keywords>
-			<itunes:image href="https://mkncast.blob.core.windows.net/static/itunes.png" />
-			<itunes:explicit>{{ post.explicit }}</itunes:explicit>
-			<itunes:block>{{ post.block }}</itunes:block>
-		</item>
-		{% endfor %}
-	</channel>
+		<itunes:explicit>{{ post.explicit }}</itunes:explicit>
+		<itunes:duration>{{ post.duration }}</itunes:duration>
+	</item>{% endfor %}
+</channel>
 </rss>
